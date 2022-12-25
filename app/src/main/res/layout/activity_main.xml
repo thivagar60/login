@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/images"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:id="@+id/sign"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="50dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_baseline_person_24"
+        android:background="#30ffffff"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign"
+        android:layout_margin="20dp"
+        android:hint="USERNAME"
+        android:drawablePadding="5dp"
+        android:textColorHint="@color/white"
+        android:padding="20dp">
+
+    </EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_baseline_info_24"
+        android:drawablePadding="5dp"
+        android:background="#30ffffff"
+        android:textColorHint="@color/white"
+        android:hint="PASSWORD"
+        android:layout_below="@id/username1"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:id="@+id/password1">
+
+    </EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="20dp"
+        android:backgroundTint="#30ff"
+        android:layout_below="@id/password1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn1">
+
+    </com.google.android.material.button.MaterialButton>
+
+
+
+
+</RelativeLayout>
