@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HOMEPAGE"
+        android:text="homepage"
         android:textSize="50dp"
         android:layout_centerVertical="true"
         android:gravity="center">
